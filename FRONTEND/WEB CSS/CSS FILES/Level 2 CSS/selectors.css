@@ -1,0 +1,112 @@
+*{
+
+font-family: 'Courier New';
+
+}
+h1, h3{
+    color:rgb(185, 43, 39);
+}
+
+/* background color won't change after :hover or :active because that property is already set using an Id selector */
+#login{
+    background-color: white;
+}
+#signup{
+    background-color: rgb(185, 43, 39);
+    color: aliceblue;
+}
+.upvote{
+    background-color: rgb(28, 220, 28);
+    color: aliceblue;
+}
+
+/* ---------------------decendant selectors----------------------------- */
+.post a{
+    color: rgb(51, 6, 215);
+    background-color: yellow;
+}
+
+/* Decendent selectors */
+/* and also be written with child combinator 
+nav a{
+    color:rgb(46, 167, 167);
+ } */
+nav ul li a{
+    color: rgb(46, 167, 167);
+}
+
+/* ----------------------------------------------------------------------------- */
+
+/* I want to put an underline to every h3 heading coming after p tag */
+/* Using sibling combinator  */
+p+h3{
+    text-decoration: underline;
+}
+
+/* -------------------------sibling combinator-------------------------- */
+.upvote + button{
+    background-color: rgb(125, 201, 203);
+}
+
+
+/* -------------------child combinator -------------------------------*/
+/* talks about the direct decendant */
+div>input{
+    background-color: bisque;
+}
+
+
+/* ------------------attribute selector------------------------ */
+input[type="text"]{
+    color: red;
+}
+input[type="password"]{
+    color: rgb(17, 107, 17);
+}
+
+
+/* ---------------------hover pseudo class --------------------------*/
+button:hover{
+    background-color: black;
+    color: aliceblue;
+}
+
+h3:hover{
+    text-decoration:overline;
+    color:rgb(161, 42, 212);
+}
+
+/*----------------------- active pseudo class---------------------------- */
+button:active{
+    font-weight: bolder ;
+    background-color: rgb(235, 68, 68);
+}
+
+/*-------------------------- checked pseudo class ---------------------------*/
+
+/* I want to make the text of yes or no bolder after selecting any one amongst them */
+input[type="radio"]:checked + label
+/* checked will be applied on the input type but we want the effect on the label so we are using the sibling combinator to apply change on the label */
+{
+    font-weight: bold;
+    color: red;
+}
+
+/* -----------------------  nth-of-type pseudo class  ------------------------------------ */
+div:nth-of-type(2n){
+    background-color: rgb(240, 206, 213);
+}
+/*------------------------- first-letter pseudo elememt ------------------------ */
+h1::first-letter{
+    color: rgb(5, 114, 5);
+}
+/* --------------------------first-line pseudo element------------------------------- */
+p::first-line{
+    color: blueviolet;
+}
+
+/* --------------------------selection pseudo element ---------------------------------- */
+/* adds properties to the selected text */
+p::selection{
+    background-color: aquamarine;
+}

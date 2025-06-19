@@ -1,0 +1,19 @@
+
+.Product{
+    border: 1px solid black;
+    background-color: bisque;
+    color: black;
+    width: 150px;
+    height: 250px;
+    
+}
+
+/*----------THIS DIV IS ALSO AFFTECTING THE SETTINGS OF OTHER DIVS----*/
+/* div{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+    
+} */

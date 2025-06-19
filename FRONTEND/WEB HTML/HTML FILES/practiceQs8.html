@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Question 8</title>
+</head>
+<body>
+    <!-- Creating a search option that redirects its search request to Google -->
+
+    <!-- form is used for creating forms -->
+    <!-- form action attribute redirects the information to the "google search" which is a name provided in the top bar of the google search when you search something -->
+    <form action="https://www.google.com/search">
+
+        <!-- here the lable for="__"'s value must match with the input type's id -->
+        <label for="search_bar">Search bar for Google</label>
+
+        <!-- name is taken from google's web search bar https://www.google.com/search?q= -->
+        <input type="text" id="search_bar" placeholder="search bar" name="q">
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

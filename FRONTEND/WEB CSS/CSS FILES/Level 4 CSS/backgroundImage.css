@@ -1,0 +1,24 @@
+div{
+    height: 250px;
+    width: 550px;
+    background-color: black;
+    margin: 10px auto;
+    text-align: center;
+}
+/* ------- contain will repeat the image to fil the background ---------*/
+#div1{
+    background-image: url(image.jpg);
+    background-size: contain;
+}
+
+/* ------- cover will crop the image to set the BG-----------*/
+#div2{
+    background-image: url(image.jpg);
+    background-size: cover;
+}
+
+/* ------ auto will stretch the image to set the BG ----------*/
+#div3{
+    background-image: url(image.jpg);
+    background-size: auto;
+}

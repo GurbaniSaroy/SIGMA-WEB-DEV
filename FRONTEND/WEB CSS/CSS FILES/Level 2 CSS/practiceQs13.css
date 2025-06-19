@@ -1,0 +1,9 @@
+/* Method 1 :- To use attribute selector */
+div[id="myId"]{
+    color: green;
+}
+
+/* Method 2:- To use direct Id selector */
+#myId{
+    color: green;
+}

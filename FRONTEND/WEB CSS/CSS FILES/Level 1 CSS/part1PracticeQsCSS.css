@@ -1,0 +1,57 @@
+p{
+    /* Question (2) making the color of the poem brown using  hex code */
+     color: #a52a2a;
+
+
+    /* Question (3) aligning all the headings to the center */
+    text-align: center;
+
+    /* Question (9) setting the line height to 30px */
+    line-height: 30px;
+   
+}
+
+h1{
+    /* Question (3) */
+    text-align: center;
+
+     /* Question (4) changing the color of the peom to red and poet to black */
+     color: red;
+
+     
+}
+h3{
+    /* Question (3) */
+    text-align: center;
+
+    /* Question (4) */
+    color: black;
+}
+
+body{
+    font-family: georgia;
+}
+
+a{
+    /* Question (6) to change the color of wikipedia to green using rgb and remove underline */
+    color:rgb(0, 225, 0);
+    text-decoration: none;
+}
+
+button{
+
+    /* Question (7) to add background and text color to the button */
+    background-color: white;
+    color: blueviolet;
+}
+
+textarea{
+
+    /* Question (8) textarea font to black in hex code*/
+    color: #000000;
+}
+
+span{
+    /* Question (10) underline the only text Omp..... */
+    text-decoration: underline;
+}

@@ -1,0 +1,44 @@
+h1{
+    text-align: center;
+}   
+.container{
+    height: 300px;
+    width: 80%;
+    background-color: azure;
+    margin: 10px auto;
+    border: 2px solid black;
+    /* Using flexbox */
+    display: flex;
+    /* the width and height is already given in container div but still it will flexibly put all the divs in the parent element ignoring the height-width provided if any */
+
+    /* if the width provided is less and the space provided is more then it will take width that is provided by the user and will use as much as mentioned/ required. 
+    #container div:50px*/
+    
+}
+
+.container div{
+    height: 40px;
+    width: 50px;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+}
+#container1{
+    flex-direction: row;
+}
+#container2{
+    justify-content: flex-start;
+    flex-direction: row;
+}
+#container3{
+    justify-content: flex-start;
+    flex-direction: column;
+}
+#container4{
+    justify-content: flex-start;
+    flex-direction: row-reverse;
+}
+#container5{
+    justify-content: flex-start;
+    flex-direction: column-reverse;
+}

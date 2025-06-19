@@ -1,0 +1,25 @@
+h1{
+    color: black;
+    border: solid;
+
+    /* if I give width 100% then the text-alignment will be with respect to the parent element who's width is provided 100% (document's width) so the text will move completely to the right of the page.
+    width: 100%;
+    text-align: right; */
+
+    /* now the width is 50% so the text-alignment to the right will act as the one at the center. 
+    width: 50%;
+    text-align: right;*/
+    
+
+    text-align: center;
+}
+
+p{
+    text-align: right;
+    border: solid;
+}
+
+h3{
+    text-align: right;
+    color: black;
+}

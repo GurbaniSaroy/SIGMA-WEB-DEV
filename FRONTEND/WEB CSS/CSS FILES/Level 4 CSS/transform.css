@@ -1,0 +1,53 @@
+section{
+    margin-top: 100px;
+}
+div{
+    height:50px;
+    width: 150px;
+    background-color:rgb(249, 249, 135) ;
+    text-align: center;
+    border: 2px solid black;
+    margin: 30px;
+}
+div:nth-of-type(2n){
+    background-color: aqua;
+}
+div:nth-of-type(3n){
+    background-color: pink;
+}
+#div1{
+    transform: rotate(45deg);
+}
+#div2{
+    transform: rotate(-45deg);
+}
+#div3{
+    transform: scale(0.5);
+}
+#div4{
+    transform: scale(1.25);
+}
+#div5{
+    transform: scaleX(1.25);
+}
+#div6{
+    transform: scaleY(1.25);
+}
+#div7{
+    transform: scale(0.75, 2);
+}
+#div8{
+    transform: translateX(100px);
+}
+#div9{
+    transform: translateY(50px);
+}
+#div10{
+    transform: translate(100px, 50px);
+}
+#div11{
+    transform: skew(30deg);
+}
+#div12{
+    transform: skew(30deg) translate(100px);
+}

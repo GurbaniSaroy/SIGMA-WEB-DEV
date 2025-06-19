@@ -1,0 +1,42 @@
+/* #bg{
+    height: 300px;
+    width: 300px;
+    background-color: black;
+    margin: 20px;
+} */
+#outerDiv{
+    background-color: white;
+    height: 200px;
+    width: 200px;
+}
+#innerDiv{
+    background-color: orange;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+.eyes{
+    background-color: black;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+}
+#right{
+    top: 55px;
+    left: 140px;
+}
+#left{
+    left: 55px;
+    top: 50px;
+}
+#mouth{
+    background-color: brown;
+    border-radius: 0 0 20px 20px;
+    height: 30px;
+    width: 100px;
+    position: absolute;
+    top: 140px;
+    left: 55px;
+}

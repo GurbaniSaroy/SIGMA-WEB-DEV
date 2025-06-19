@@ -1,0 +1,14 @@
+#div1{
+    /* Using RGBA(alpha channel) */
+    background-color: rgb(102, 51, 153,1); /*Here if I set this 1 to zero then my div block will hide AS IT SETS THE OPACITY FOR THE COLOR*/
+
+    height: 200px;
+    width: 200px;
+}
+#div2{
+    background-color: royalblue;
+    /* If I set the opacity to 0 then the element will hide */
+    opacity: 1;
+    height: 200px;
+    width: 150px;
+}

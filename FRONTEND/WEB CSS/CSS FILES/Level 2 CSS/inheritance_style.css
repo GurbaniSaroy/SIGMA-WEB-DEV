@@ -1,0 +1,9 @@
+/* Here div's sub-elements like heading, form, etc. are inheriting it's properties to themselves */
+/* input type and button by-default can't inherit the properties */
+div{
+    background-color: brown;
+}
+/* for making input boxes inherit */
+input{
+    background-color: inherit;
+}

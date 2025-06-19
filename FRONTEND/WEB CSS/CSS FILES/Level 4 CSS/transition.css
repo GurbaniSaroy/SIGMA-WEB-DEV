@@ -1,0 +1,21 @@
+div{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(27, 200, 200);
+    margin-top: 10px;
+    /*--------- shorthand to center my things---------*/
+    margin: 0 auto; 
+    transition: margin-top 2s ease-in 0.2s;
+
+
+    /* transition duration is that for how much it will continue to change */
+     /* transition-duration: 1s; */
+
+    /* transition delay is that after how much time it will start to change its state. */
+    /* transition-delay: 0.25s;  */
+}
+div:hover{
+    background-color: black;
+    /* border-radius: 50%; */
+    margin-top: 400px;
+}

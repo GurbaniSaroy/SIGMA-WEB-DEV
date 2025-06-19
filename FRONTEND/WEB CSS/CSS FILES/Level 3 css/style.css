@@ -1,0 +1,17 @@
+div{
+
+    /*------------- setting height & width ---------------*/
+    height: 200px;
+    width: 500px;
+    background-color: pink;
+
+    /*------------ setting border --------------*/
+    /* border-width: 5px;
+    border-color: black;
+    border-style: solid; */
+    /* --------------shorthand-------------------- */
+    border: 2px solid yellow;
+
+    /* border-left-color: blue;
+    border-left-style: dashed; */
+}

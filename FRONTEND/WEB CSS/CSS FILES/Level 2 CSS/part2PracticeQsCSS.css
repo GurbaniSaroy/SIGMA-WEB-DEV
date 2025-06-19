@@ -1,0 +1,52 @@
+/*------------------------------------------- Part A: selectors------------------------------------ */
+
+/* -------------Question (1)------*/
+#main{
+    color: blue;
+}
+
+/* ------------Question (2)------------ */
+*{
+    text-align: center;
+}
+
+/* ------------Question (3)------------ */
+.headingTag{
+    font-family: georgia;
+}
+
+/* ------------Question (4)------------- */
+.paragraph{
+    color:white;
+    background-color: cornflowerblue;
+}
+
+/* -----------Question (5) ------------*/
+div>button{
+    color: azure;
+    background-color: purple;
+}
+
+/* --------------------------------------  Part B: pseudo class and elements--------------------------------- */
+/* -----------Question (6)------------ */
+button:hover{
+    color: blue;
+    background-color: yellow;
+}
+
+/* -----------Question (7)----------- */
+p:nth-of-type(2n-1){
+    color: yellow;
+}
+
+/* ---------- Question (8)----------- */
+h1::first-letter{
+    color: red;
+}
+
+/* ---------Question (9)------------- */
+input[type="checkbox"]:checked + label{
+    color: darkgreen;
+}
+
+/* ------ Question (10)-------------- */
